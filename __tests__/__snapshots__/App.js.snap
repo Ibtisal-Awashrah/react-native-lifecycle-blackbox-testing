@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "padding": 30,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    placeholder="Application Name"
+    placeholderTextColor="#9a73ef"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "borderColor": "#000",
+        "borderRadius": 0.5,
+        "borderWidth": 0.5,
+        "height": 44,
+        "margin": 10,
+        "padding": 10,
+        "width": 255,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <View
+    style={
+      Object {
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Open 
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
